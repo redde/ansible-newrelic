@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Oleg Bovykin
+  description: Install and configure the New Relic System Monitor Daemon
+  license: MIT
+  min_ansible_version: 1.4
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - lenny
+        - squeeze
+        - wheezy
+  categories:
+    - monitoring
+dependencies: []
