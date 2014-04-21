@@ -4,6 +4,6 @@
 
 Set `newrelic_license_key` variable with your key
 
-## TODO
+Include `newrelic` role.
 
-* Update readme
+Other variables are set in `defaults/main.yml`. Feel free to reassign them.
