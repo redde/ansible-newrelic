@@ -27,7 +27,7 @@
 
 - name: Configure New Relic Sysmond
   template:
-    src: nrsysmond.cfg
+    src: nrsysmond.cfg.j2
     dest: /etc/newrelic/nrsysmond.cfg
     group: newrelic
     owner: root
